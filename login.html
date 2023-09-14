@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8a8484;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            /* background-color: #444; */
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        .content {
+            margin: 40px;
+            padding: 40px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <h1>Iniciar Sesión</h1>
+    </header> -->
+    <nav>
+        
+        <ul>
+            <li><a href="#">Nosotros</a></li>
+
+            <li><a href="#">ComUnidad</a></li>
+            
+            <li><a href="#">Iniciar sesión</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <!-- Aquí coloca el contenido de tu página de inicio de sesión -->
+        <h1>Inicio de sesión</h1>
+        <h2>Ingresá tus credenciales.</h2>
+        <form action="procesar_login.php" method="post">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required><br><br>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+            <input type="submit" value="Iniciar sesión">
+        </form>
+        <br><br>
+        <li>¿Todavía no estas registrado?<a href="#">Regístrate.</a></li>
+
+        <li>¿Olvidaste tu contraseña?<a href="#">Recuperar contraseña</a></li>
+       
+    </div>
+</body>
+</html>
