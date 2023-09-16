@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.formulario {
+    max-width: 200px;
+    padding: 20px;
+    margin: 10px;
+    
+    
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.texto_redes{
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.redes-sociales{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.texto_arriba{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
